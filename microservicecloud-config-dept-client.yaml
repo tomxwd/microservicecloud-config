@@ -23,7 +23,7 @@ spring:
 mybatis:
     config-location: classpath:mybatis/mybatis.cfg.xml
     mapper-locations:
-        - classpath: mybatis/mapper/**/*.xml
+        - classpath:mybatis/mapper/**/*.xml
 eureka:
     client:
         service-url:
@@ -57,7 +57,7 @@ spring:
 mybatis:
     config-location: classpath:mybatis/mybatis.cfg.xml
     mapper-locations:
-        - classpath: mybatis/mapper/**/*.xml
+        - classpath:mybatis/mapper/**/*.xml
 eureka:
     client:
         service-url:
